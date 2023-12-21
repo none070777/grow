@@ -1,0 +1,35 @@
+@import 'font.css';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* root start */
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+:root{
+    --DM700: 'DM-sans-Bold';
+    --M400: 'Mulish-Regular';
+    --grey: #696871;
+    --black: #19191B;
+    --orage: #FF7143;
+    --blue: #5454D4;
+    --lightGrey: #F8F8F8;
+    --Darkoreng: #9F3919;
+}
+p {
+    font-family: var(--M400);
+
+}
+
+/* root end */
+/*********************** */
